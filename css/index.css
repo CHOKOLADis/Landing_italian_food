@@ -100,6 +100,7 @@ header .content .text{
 .font_reey{
     font-family: "Reey-Regular",fantasy;
     text-align: center;
+    text-transform: capitalize;
 }
 header .content .text img{
     width: 140px;
@@ -108,7 +109,6 @@ header .content .text h1{
     text-align: left;
     color: white;
     font-size: 91px;
-    text-transform: capitalize;
 }
 header .content .text p.subtitle{
     font-weight: 600;
@@ -166,7 +166,6 @@ header .leaves{
 section.second > div > h1{
     color: black;
     font-size: 75px;
-    text-transform: capitalize;
     margin-top: 80px;
 }
 section.second > div > p {
@@ -301,4 +300,94 @@ section.discount a.btn:hover{
     color: #343434;
     background: transparent;
     text-decoration: none;
+}
+section.discount .promo{
+    margin-bottom: 110px;
+}
+
+section.fifth{
+    background: url(../img/Header_Background.png) no-repeat center center / cover;
+    padding-top: 130px;
+    padding-bottom: 600px;
+    color: #fafafa;
+    position: relative;
+}
+section.fifth .title img{
+    position: absolute;
+    top: -170px;
+    left: 0;
+}
+section.fifth .text{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
+section.fifth h2{
+    font-size: 58px;
+    color: #fafafa;
+}
+section.fifth p {
+    margin: 0px auto;
+    margin-top: 70px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+}
+section.fifth hr{
+    width: 20%;
+    margin: 0px auto;
+    height: 10px;
+    background: #fafafa;
+    border: 0px;
+    margin-top: 40px;
+}
+section.fifth .pizza{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+.pizza img{
+    position: absolute;
+    height: 750px;
+}
+section.fifth .pizza .piece{
+    position: absolute;
+    height: 391px;
+    bottom: -200px;
+    left: 300px;
+}
+
+section.sixth {
+    padding-top: 160px;
+    padding-bottom: 190px;
+}
+section.sixth .blocks{
+    justify-content: space-between;
+}
+section.sixth .item{
+    color: #343434;
+    width: 31%;
+}
+section.sixth .item h3{
+    text-align: center;
+    font-size: 42px;
+}
+section.sixth .quote{
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 225px;
+    text-align: center;
+}
+section.sixth .quote p{
+    font-size: 25px;
+    font-weight: 600;
+    color: #3f3f3f;
+}
+section.sixth .quote p.signature{
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 65px;
+    text-transform: capitalize;
 }
