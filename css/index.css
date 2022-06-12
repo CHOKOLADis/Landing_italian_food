@@ -19,9 +19,25 @@ body{
 .fix_menu{
     position: fixed;
     box-sizing: border-box;
-    left: 0 !important;
     z-index: 10;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    background: rgb(235, 135, 77) !important;
+    padding: 20px;
 }
+.fix_menu > div {
+    margin: 0px auto;
+}
+.fix_menu li:hover a{
+    color: rgb(207, 214, 73) !important;
+}
+.fix_menu a::before, .fix_menu a::after{
+    background: rgb(207, 214, 73) !important;
+}
+
 
 header{
     background: url(../img/Header_Background.png) no-repeat center center / cover;
@@ -186,6 +202,7 @@ section.second > div > p {
 section.second .menu_food{
     justify-content: space-between;
     margin-top: 90px;
+    padding: 0;
 }
 section.second .menu_food li{
     max-width: 32%;
@@ -322,7 +339,15 @@ section.fifth{
 section.fifth .title img{
     position: absolute;
     top: -170px;
-    left: 0;
+    left: 10%;
+}
+@media screen and (max-width:1790px) {
+    section.fifth .title img{
+        left: 0;
+    }
+    .piece{
+        left: 28%;
+    }
 }
 section.fifth .text{
     width: 80%;
@@ -363,7 +388,7 @@ section.fifth .pizza .piece{
     position: absolute;
     height: 391px;
     bottom: -200px;
-    left: 300px;
+    left: 555px;
 }
 
 section.sixth {
@@ -406,7 +431,7 @@ section.subscribe{
 section.subscribe img{
     position: absolute;
     top: -60px;
-    left: 0;
+    left: 10%;
     z-index: 3;
 }
 section.subscribe form{
